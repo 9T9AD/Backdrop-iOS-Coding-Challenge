@@ -13,16 +13,16 @@ struct TabBarView: View {
 //#warning("When not tapped color should be grey")
         
         TabView {
-            AllDogsTabView()
+            AllCatsTabView()
                 .tabItem{
                     Image("cat")
-                    Text("All Dogs")
+                    Text("All Cats")
                 }
             
-            DogsILikeTabView()
+            CatsILikeTabView()
                 .tabItem{
                     Image("heartfill")
-                    Text("Dogs I like")
+                    Text("Cats I like")
                 }
         }
         .accentColor(Color("first"))

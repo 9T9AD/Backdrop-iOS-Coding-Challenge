@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AllDogsView: View {
+struct AllCatsView: View {
     var body: some View {
         HStack{
             
@@ -39,6 +39,6 @@ struct AllDogsView: View {
 
 struct AllDogsView_Previews: PreviewProvider {
     static var previews: some View {
-        AllDogsView()
+        AllCatsView()
     }
 }

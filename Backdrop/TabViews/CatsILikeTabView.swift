@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct DogsILikeTabView: View {
+struct CatsILikeTabView: View {
     var body: some View {
-        DogsILikeView()
+        CatsILikeView()
     }
 }
 
 struct DogsILikeTabView_Previews: PreviewProvider {
     static var previews: some View {
-        DogsILikeTabView()
+        CatsILikeTabView()
     }
 }

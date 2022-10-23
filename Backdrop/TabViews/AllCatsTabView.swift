@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-struct AllDogsTabView: View {
+struct AllCatsTabView: View {
     var body: some View {
         NavigationView {
             List (0 ..< 20) { item in
             //ScrollView (showsIndicators: false) {
-                AllDogsView()
-                
+                AllCatsView()
                 
             }
             .navigationTitle("All Cats")
@@ -26,7 +25,7 @@ struct AllDogsTabView: View {
     
     struct AllDogsTabView_Previews: PreviewProvider {
         static var previews: some View {
-            AllDogsTabView()
+            AllCatsTabView()
         }
     }
 }

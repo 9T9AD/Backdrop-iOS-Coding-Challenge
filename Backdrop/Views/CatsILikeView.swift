@@ -1,5 +1,5 @@
 //
-//  DogsILikeView.swift
+//  CatssILikeView.swift
 //  Backdrop
 //
 //  Created by Adewale Sanusi on 20/10/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DogsILikeView: View {
+struct CatsILikeView: View {
     var body: some View {
         VStack{
             Image("cat")
@@ -39,6 +39,6 @@ struct DogsILikeView: View {
 
 struct DogsILikeView_Previews: PreviewProvider {
     static var previews: some View {
-        DogsILikeView()
+        CatsILikeView()
     }
 }
