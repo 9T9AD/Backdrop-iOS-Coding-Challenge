@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C58E3FC2901DFC100C6AD49 /* BackdropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E3FB2901DFC100C6AD49 /* BackdropApp.swift */; };
+		6C58E3FE2901DFC100C6AD49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E3FD2901DFC100C6AD49 /* ContentView.swift */; };
+		6C58E4002901DFC400C6AD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C58E3FF2901DFC400C6AD49 /* Assets.xcassets */; };
+		6C58E4032901DFC400C6AD49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C58E4022901DFC400C6AD49 /* Preview Assets.xcassets */; };
+		6C58E40D2901DFC400C6AD49 /* BackdropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E40C2901DFC400C6AD49 /* BackdropTests.swift */; };
+		6C58E4172901DFC400C6AD49 /* BackdropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E4162901DFC400C6AD49 /* BackdropUITests.swift */; };
+		6C58E4192901DFC400C6AD49 /* BackdropUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E4182901DFC400C6AD49 /* BackdropUITestsLaunchTests.swift */; };
+		6C58E4272901E06A00C6AD49 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E4262901E06A00C6AD49 /* TabBarView.swift */; };
+		6C58E4292901E0D100C6AD49 /* AllDogsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E4282901E0D100C6AD49 /* AllDogsTabView.swift */; };
+		6C58E42B2901E0F000C6AD49 /* DogsILikeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E42A2901E0F000C6AD49 /* DogsILikeTabView.swift */; };
+		6C58E42E2901E18C00C6AD49 /* AllDogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E42D2901E18C00C6AD49 /* AllDogsView.swift */; };
+		6C58E4302901E19C00C6AD49 /* DogsILikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E42F2901E19C00C6AD49 /* DogsILikeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C58E4092901DFC400C6AD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C58E3F02901DFC100C6AD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C58E3F72901DFC100C6AD49;
+			remoteInfo = Backdrop;
+		};
+		6C58E4132901DFC400C6AD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C58E3F02901DFC100C6AD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C58E3F72901DFC100C6AD49;
+			remoteInfo = Backdrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C58E3F82901DFC100C6AD49 /* Backdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C58E3FB2901DFC100C6AD49 /* BackdropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropApp.swift; sourceTree = "<group>"; };
+		6C58E3FD2901DFC100C6AD49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C58E3FF2901DFC400C6AD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C58E4022901DFC400C6AD49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C58E4082901DFC400C6AD49 /* BackdropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackdropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C58E40C2901DFC400C6AD49 /* BackdropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropTests.swift; sourceTree = "<group>"; };
+		6C58E4122901DFC400C6AD49 /* BackdropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackdropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C58E4162901DFC400C6AD49 /* BackdropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropUITests.swift; sourceTree = "<group>"; };
+		6C58E4182901DFC400C6AD49 /* BackdropUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C58E4262901E06A00C6AD49 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		6C58E4282901E0D100C6AD49 /* AllDogsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDogsTabView.swift; sourceTree = "<group>"; };
+		6C58E42A2901E0F000C6AD49 /* DogsILikeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsILikeTabView.swift; sourceTree = "<group>"; };
+		6C58E42D2901E18C00C6AD49 /* AllDogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDogsView.swift; sourceTree = "<group>"; };
+		6C58E42F2901E19C00C6AD49 /* DogsILikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsILikeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C58E3F52901DFC100C6AD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C58E4052901DFC400C6AD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C58E40F2901DFC400C6AD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C58E3EF2901DFC100C6AD49 = {
+			isa = PBXGroup;
+			children = (
+				6C58E3FA2901DFC100C6AD49 /* Backdrop */,
+				6C58E40B2901DFC400C6AD49 /* BackdropTests */,
+				6C58E4152901DFC400C6AD49 /* BackdropUITests */,
+				6C58E3F92901DFC100C6AD49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C58E3F92901DFC100C6AD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E3F82901DFC100C6AD49 /* Backdrop.app */,
+				6C58E4082901DFC400C6AD49 /* BackdropTests.xctest */,
+				6C58E4122901DFC400C6AD49 /* BackdropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C58E3FA2901DFC100C6AD49 /* Backdrop */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E3FB2901DFC100C6AD49 /* BackdropApp.swift */,
+				6C58E3FD2901DFC100C6AD49 /* ContentView.swift */,
+				6C58E4252901E02900C6AD49 /* TabViews */,
+				6C58E42C2901E17100C6AD49 /* Views */,
+				6C58E4312901E22600C6AD49 /* Model */,
+				6C58E3FF2901DFC400C6AD49 /* Assets.xcassets */,
+				6C58E4012901DFC400C6AD49 /* Preview Content */,
+			);
+			path = Backdrop;
+			sourceTree = "<group>";
+		};
+		6C58E4012901DFC400C6AD49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E4022901DFC400C6AD49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C58E40B2901DFC400C6AD49 /* BackdropTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E40C2901DFC400C6AD49 /* BackdropTests.swift */,
+			);
+			path = BackdropTests;
+			sourceTree = "<group>";
+		};
+		6C58E4152901DFC400C6AD49 /* BackdropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E4162901DFC400C6AD49 /* BackdropUITests.swift */,
+				6C58E4182901DFC400C6AD49 /* BackdropUITestsLaunchTests.swift */,
+			);
+			path = BackdropUITests;
+			sourceTree = "<group>";
+		};
+		6C58E4252901E02900C6AD49 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E4262901E06A00C6AD49 /* TabBarView.swift */,
+				6C58E4282901E0D100C6AD49 /* AllDogsTabView.swift */,
+				6C58E42A2901E0F000C6AD49 /* DogsILikeTabView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		6C58E42C2901E17100C6AD49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C58E42D2901E18C00C6AD49 /* AllDogsView.swift */,
+				6C58E42F2901E19C00C6AD49 /* DogsILikeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C58E4312901E22600C6AD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C58E3F72901DFC100C6AD49 /* Backdrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C58E41C2901DFC400C6AD49 /* Build configuration list for PBXNativeTarget "Backdrop" */;
+			buildPhases = (
+				6C58E3F42901DFC100C6AD49 /* Sources */,
+				6C58E3F52901DFC100C6AD49 /* Frameworks */,
+				6C58E3F62901DFC100C6AD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Backdrop;
+			productName = Backdrop;
+			productReference = 6C58E3F82901DFC100C6AD49 /* Backdrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C58E4072901DFC400C6AD49 /* BackdropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C58E41F2901DFC400C6AD49 /* Build configuration list for PBXNativeTarget "BackdropTests" */;
+			buildPhases = (
+				6C58E4042901DFC400C6AD49 /* Sources */,
+				6C58E4052901DFC400C6AD49 /* Frameworks */,
+				6C58E4062901DFC400C6AD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C58E40A2901DFC400C6AD49 /* PBXTargetDependency */,
+			);
+			name = BackdropTests;
+			productName = BackdropTests;
+			productReference = 6C58E4082901DFC400C6AD49 /* BackdropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C58E4112901DFC400C6AD49 /* BackdropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C58E4222901DFC400C6AD49 /* Build configuration list for PBXNativeTarget "BackdropUITests" */;
+			buildPhases = (
+				6C58E40E2901DFC400C6AD49 /* Sources */,
+				6C58E40F2901DFC400C6AD49 /* Frameworks */,
+				6C58E4102901DFC400C6AD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C58E4142901DFC400C6AD49 /* PBXTargetDependency */,
+			);
+			name = BackdropUITests;
+			productName = BackdropUITests;
+			productReference = 6C58E4122901DFC400C6AD49 /* BackdropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C58E3F02901DFC100C6AD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6C58E3F72901DFC100C6AD49 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6C58E4072901DFC400C6AD49 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6C58E3F72901DFC100C6AD49;
+					};
+					6C58E4112901DFC400C6AD49 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6C58E3F72901DFC100C6AD49;
+					};
+				};
+			};
+			buildConfigurationList = 6C58E3F32901DFC100C6AD49 /* Build configuration list for PBXProject "Backdrop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C58E3EF2901DFC100C6AD49;
+			productRefGroup = 6C58E3F92901DFC100C6AD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C58E3F72901DFC100C6AD49 /* Backdrop */,
+				6C58E4072901DFC400C6AD49 /* BackdropTests */,
+				6C58E4112901DFC400C6AD49 /* BackdropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C58E3F62901DFC100C6AD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58E4032901DFC400C6AD49 /* Preview Assets.xcassets in Resources */,
+				6C58E4002901DFC400C6AD49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C58E4062901DFC400C6AD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C58E4102901DFC400C6AD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C58E3F42901DFC100C6AD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58E3FE2901DFC100C6AD49 /* ContentView.swift in Sources */,
+				6C58E42E2901E18C00C6AD49 /* AllDogsView.swift in Sources */,
+				6C58E4272901E06A00C6AD49 /* TabBarView.swift in Sources */,
+				6C58E3FC2901DFC100C6AD49 /* BackdropApp.swift in Sources */,
+				6C58E4292901E0D100C6AD49 /* AllDogsTabView.swift in Sources */,
+				6C58E4302901E19C00C6AD49 /* DogsILikeView.swift in Sources */,
+				6C58E42B2901E0F000C6AD49 /* DogsILikeTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C58E4042901DFC400C6AD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58E40D2901DFC400C6AD49 /* BackdropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C58E40E2901DFC400C6AD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58E4192901DFC400C6AD49 /* BackdropUITestsLaunchTests.swift in Sources */,
+				6C58E4172901DFC400C6AD49 /* BackdropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C58E40A2901DFC400C6AD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C58E3F72901DFC100C6AD49 /* Backdrop */;
+			targetProxy = 6C58E4092901DFC400C6AD49 /* PBXContainerItemProxy */;
+		};
+		6C58E4142901DFC400C6AD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C58E3F72901DFC100C6AD49 /* Backdrop */;
+			targetProxy = 6C58E4132901DFC400C6AD49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C58E41A2901DFC400C6AD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C58E41B2901DFC400C6AD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C58E41D2901DFC400C6AD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backdrop/Preview Content\"";
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.Backdrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C58E41E2901DFC400C6AD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backdrop/Preview Content\"";
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.Backdrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C58E4202901DFC400C6AD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.BackdropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backdrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backdrop";
+			};
+			name = Debug;
+		};
+		6C58E4212901DFC400C6AD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.BackdropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backdrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backdrop";
+			};
+			name = Release;
+		};
+		6C58E4232901DFC400C6AD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.BackdropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Backdrop;
+			};
+			name = Debug;
+		};
+		6C58E4242901DFC400C6AD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.BackdropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Backdrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C58E3F32901DFC100C6AD49 /* Build configuration list for PBXProject "Backdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C58E41A2901DFC400C6AD49 /* Debug */,
+				6C58E41B2901DFC400C6AD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C58E41C2901DFC400C6AD49 /* Build configuration list for PBXNativeTarget "Backdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C58E41D2901DFC400C6AD49 /* Debug */,
+				6C58E41E2901DFC400C6AD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C58E41F2901DFC400C6AD49 /* Build configuration list for PBXNativeTarget "BackdropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C58E4202901DFC400C6AD49 /* Debug */,
+				6C58E4212901DFC400C6AD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C58E4222901DFC400C6AD49 /* Build configuration list for PBXNativeTarget "BackdropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C58E4232901DFC400C6AD49 /* Debug */,
+				6C58E4242901DFC400C6AD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C58E3F02901DFC100C6AD49 /* Project object */;
+}
